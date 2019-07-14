@@ -85,6 +85,7 @@
 #define CHAR_F        (LED_TOP       | LED_TOP_LEFT   | LED_MIDDLE    | LED_LWR_LEFT)
 #define CHAR_G        (LED_LWR_RIGHT | LED_LWR        | LED_MIDDLE    | LED_TOP_LEFT  | LED_TOP       | LED_TOP_RIGHT)
 #define CHAR_H        (LED_TOP_LEFT  | LED_LWR_LEFT   | LED_MIDDLE    | LED_LWR_RIGHT)
+#define CHAR_J        (LED_TOP_RIGHT | LED_LWR_RIGHT  | LED_LWR       | LED_LWR_LEFT)
 #define CHAR_I        (LED_LWR_RIGHT)
 #define CHAR_L        (LED_TOP_LEFT  | LED_LWR_LEFT   | LED_LWR)
 #define CHAR_N        (LED_LWR_LEFT  | LED_MIDDLE     | LED_LWR_RIGHT)
@@ -202,19 +203,20 @@ byte debug[][4] = {
   { CHAR_G,           CHAR_BLANK,       CHAR_BLANK,       CHAR_BLANK        },  // 29: G
   { CHAR_H,           CHAR_BLANK,       CHAR_BLANK,       CHAR_BLANK        },  // 30: H
   { CHAR_I,           CHAR_BLANK,       CHAR_BLANK,       CHAR_BLANK        },  // 31: I
-  { CHAR_L,           CHAR_BLANK,       CHAR_BLANK,       CHAR_BLANK        },  // 32: L
-  { CHAR_N,           CHAR_BLANK,       CHAR_BLANK,       CHAR_BLANK        },  // 33: N
-  { CHAR_O,           CHAR_BLANK,       CHAR_BLANK,       CHAR_BLANK        },  // 34: O
-  { CHAR_P,           CHAR_BLANK,       CHAR_BLANK,       CHAR_BLANK        },  // 35: P
-  { CHAR_R,           CHAR_BLANK,       CHAR_BLANK,       CHAR_BLANK        },  // 36: R
-  { CHAR_S,           CHAR_BLANK,       CHAR_BLANK,       CHAR_BLANK        },  // 37: S
-  { CHAR_T,           CHAR_BLANK,       CHAR_BLANK,       CHAR_BLANK        },  // 38: T
-  { CHAR_U,           CHAR_BLANK,       CHAR_BLANK,       CHAR_BLANK        },  // 39: U
-  { CHAR_Y,           CHAR_BLANK,       CHAR_BLANK,       CHAR_BLANK        },  // 40: Y
-  { CHAR_BANG,        CHAR_BLANK,       CHAR_BLANK,       CHAR_BLANK        },  // 41: !
-  { CHAR_MINUS,       CHAR_BLANK,       CHAR_BLANK,       CHAR_BLANK        },  // 42: -
-  { CHAR_DOT,         CHAR_BLANK,       CHAR_BLANK,       CHAR_BLANK        },  // 43: .
-  { CHAR_QUESTION,    CHAR_BLANK,       CHAR_BLANK,       CHAR_BLANK        },  // 44: ?
+  { CHAR_J,           CHAR_BLANK,       CHAR_BLANK,       CHAR_BLANK        },  // 32: I
+  { CHAR_L,           CHAR_BLANK,       CHAR_BLANK,       CHAR_BLANK        },  // 33: L
+  { CHAR_N,           CHAR_BLANK,       CHAR_BLANK,       CHAR_BLANK        },  // 34: N
+  { CHAR_O,           CHAR_BLANK,       CHAR_BLANK,       CHAR_BLANK        },  // 35: O
+  { CHAR_P,           CHAR_BLANK,       CHAR_BLANK,       CHAR_BLANK        },  // 36: P
+  { CHAR_R,           CHAR_BLANK,       CHAR_BLANK,       CHAR_BLANK        },  // 37: R
+  { CHAR_S,           CHAR_BLANK,       CHAR_BLANK,       CHAR_BLANK        },  // 38: S
+  { CHAR_T,           CHAR_BLANK,       CHAR_BLANK,       CHAR_BLANK        },  // 39: T
+  { CHAR_U,           CHAR_BLANK,       CHAR_BLANK,       CHAR_BLANK        },  // 40: U
+  { CHAR_Y,           CHAR_BLANK,       CHAR_BLANK,       CHAR_BLANK        },  // 41: Y
+  { CHAR_BANG,        CHAR_BLANK,       CHAR_BLANK,       CHAR_BLANK        },  // 42: !
+  { CHAR_MINUS,       CHAR_BLANK,       CHAR_BLANK,       CHAR_BLANK        },  // 43: -
+  { CHAR_DOT,         CHAR_BLANK,       CHAR_BLANK,       CHAR_BLANK        },  // 44: .
+  { CHAR_QUESTION,    CHAR_BLANK,       CHAR_BLANK,       CHAR_BLANK        },  // 45: ?
 };
 
 /*
